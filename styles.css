@@ -22,7 +22,6 @@ p {
     font-size: 1.2rem;
 }
 
-
 /* **** Navigation ***** */
 
 .header-name {
@@ -73,7 +72,7 @@ p {
 
 /* ***** Projects **** */
 
-.garden, .dog-adoption {
+.garden, .dog-adoption, .pupquest {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -81,7 +80,7 @@ p {
     margin: 15px 0;
 }
 
-.garden h2, .dog-adoption h2 {
+.garden h2, .dog-adoption h2, .pupquest h2 {
     align-self: center;
     margin: 10px 0;
 }
@@ -97,17 +96,14 @@ p {
 
 .site-link a {
     text-decoration: none;
+    color: #353535;
 }
 
 .site-link a:visited {
-    color: inherit;
+    color: #353535;
 }
 
-/* .bottom-link {
-    margin-bottom: 10px;
-} */
-
-.dog-adoption img, .garden img {
+.dog-adoption img, .garden img, .pupquest img {
     border: 1px #F3F3F3 solid;
     box-shadow: 3px 3px 5px #F1F1F1;
     
