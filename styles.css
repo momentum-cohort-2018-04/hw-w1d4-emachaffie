@@ -10,8 +10,26 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* h2 {
+    margin-bottom: 12px;
+} */
+
+p {
+    font-family: 'Abel', sans-serif;
+    padding: 20px 0;
+}
+
 
 /* **** Navigation ***** */
+
+.header-name {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
 
 .navbar {
     display:flex;
@@ -29,7 +47,7 @@ body {
 }
 
 .nav-link {
-    font-weight: bolder;
+    font-family: 'Abel', sans-serif;
     padding: 5px 10px;
     /* border: 0.5px #353535 solid; */
     text-decoration: none;
@@ -41,21 +59,40 @@ body {
 
 /* **** About **** */
 
-
-
 .main-pic {
     max-width: 100%;
     margin: 10px 0;
 }
 
+.about-text {
+    background-color: #F2F2F2;
+}
+
+
 /* **** Footer **** */
 
-.footer {
+/* footer {
+    Want footer to span entire window.....!!!!!!!!!!!!!!!!!!!!!
+} */
+
+.footer-links {
     background-color: #e6ecf7;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* border: 8px black solid; */
 }
 
-.footer-links img{
-    width: 20%;
-    padding: 5px;
+.icon {
+    width: 1;
+    /* border: 8px black solid; */
 }
+
+.icon img {
+    width: 50%;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    /* Can you get above with flexbox????!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+}
+
