@@ -146,3 +146,30 @@ footer {
     /* Can you get above with flexbox????!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 }
 
+/* **** Media Queries **** */
+
+@media (min-width: 550px) {
+
+    .navbar ul li {
+        display: inline;
+    }
+    .navbar {
+        display:flex;
+        flex-direction: row;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    
+    .header-name {
+        color: purple;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .main-pic {
+        
+    }
+
+}
