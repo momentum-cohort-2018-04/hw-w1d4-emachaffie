@@ -57,13 +57,24 @@ p {
 
 /* **** About **** */
 
+.about-liz {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 .main-pic, .dog-pic {
-    max-width: 100%;
+    flex-shrink: 0.8;
     margin: 10px 0;
 }
 
-.about-text1, .about-text3 {
+.about-text2 {
     background-color: #e6ecf7;
+}
+
+.about-heading {
+    background-color: #FFF;
 }
 
 .about-text3 {
@@ -158,18 +169,29 @@ footer {
         flex-direction: row;
         justify-content: left;
         flex-wrap: wrap;
+        margin-bottom: 20px;
     }
-    
-    .header-name {
-        color: purple;
+
+    .main-pic {
+        /* max-width: 300px; */
     }
+
 
 }
 
 @media (min-width: 768px) {
-
-    .main-pic {
-        
+    
+    .about-heading {
+        display: inline-block;
+        width: 45%;
     }
+    .about-text1 {
+        display: inline-block;
+        width: 45%;
+    }
+    
+    .about-text2{
 
+    } 
+    
 }
