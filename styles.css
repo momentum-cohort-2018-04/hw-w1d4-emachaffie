@@ -16,10 +16,6 @@ h1, h2, h3 {
     margin: 10px 0 10px 10px;
 }
 
-/* h2 {
-    margin-bottom: 12px;
-} */
-
 p {
     font-family: 'Abel', sans-serif;
     padding: 20px 15px;
@@ -79,24 +75,55 @@ p {
 
 .garden, .dog-adoption {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-}
-
-.screenshot img {
-    max-width: 90%;
-    padding: 10px;
-}
-
-.garden, .dog-adoption {
     background: #e6ecf7;
     margin: 15px 0;
 }
 
-/* **** Footer **** */
+.garden h2, .dog-adoption h2 {
+    align-self: center;
+    margin: 10px 0;
+}
 
-/* footer {
-    Want footer to span entire window.....!!!!!!!!!!!!!!!!!!!!!
+.site-link {
+    align-self: center;
+    margin-bottom: 20px;
+    padding: 0;
+    font-weight: 100;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.site-link a {
+    text-decoration: none;
+}
+
+.site-link a:visited {
+    color: inherit;
+}
+
+/* .bottom-link {
+    margin-bottom: 10px;
 } */
+
+.dog-adoption img, .garden img {
+    border: 1px #F3F3F3 solid;
+    box-shadow: 3px 3px 5px #F1F1F1;
+    
+}
+
+.screenshot {
+    align-self: center;
+    display: block;
+    max-width: 90%;
+    margin-top: 15px;
+}
+.screenshot img {
+    max-width: 100%;
+}
+
+/* **** Footer **** */
 
 footer {
     margin: 0px;
