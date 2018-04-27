@@ -74,6 +74,12 @@ p {
     margin-bottom: 80px;
 }
 
+/* ***** Projects **** */
+
+.screenshot img {
+    max-width: 100%;
+}
+
 /* **** Footer **** */
 
 /* footer {
