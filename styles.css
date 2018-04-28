@@ -22,6 +22,21 @@ p {
     font-size: 1.2rem;
 }
 
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #353535;
+    font-weight: bolder;
+}
+
+a:visited {
+    color: #353535;
+}
+
+
 /* **** Navigation ***** */
 
 .header-name {
@@ -64,8 +79,8 @@ p {
     justify-content: flex-start;
 }
 
-.main-pic, .dog-pic {
-    flex-shrink: 0.8;
+.main-pic, .dog-pic, .climbing-pic {
+    max-width: 100%;
     margin: 10px 0;
 }
 
@@ -79,6 +94,12 @@ p {
 
 .about-text3 {
     margin-bottom: 80px;
+}
+
+.language-list {
+    list-style: none;
+    margin: 0 0 20px 15px;
+    text-align: center;
 }
 
 /* ***** Projects **** */
@@ -105,14 +126,6 @@ p {
     
 }
 
-.site-link a {
-    text-decoration: none;
-    color: #353535;
-}
-
-.site-link a:visited {
-    color: #353535;
-}
 
 .dog-adoption img, .garden img, .pupquest img {
     border: 1px #F3F3F3 solid;
@@ -173,7 +186,7 @@ footer {
     }
 
     .main-pic {
-        /* max-width: 300px; */
+        max-width: 300px;
     }
 
 
