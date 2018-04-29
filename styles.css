@@ -66,7 +66,7 @@ a:visited {
     background-color: #6999F3;
     text-align: center;
     margin: 4px 8px;
-    box-shadow: 2px 3px 1px #F1F1F1;
+    box-shadow: 3px 3px 5px #e6ecf7;
 }
 
 /* **** About **** */
@@ -155,13 +155,25 @@ a:visited {
 }
 
 /* **** Resume **** */
+
+.resume-body {
+    display: flex;
+    flex-direction: column;
+}
+
 .contact {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1rem;
 }
 .resume p {
     line-height: 1.2rem;
     padding: 5px 10px;
     margin: 0;
+    font-size: 1rem;
 }
 
 .resume a {
@@ -177,6 +189,7 @@ a:visited {
 .resume li {
     line-height: 1rem;
     padding: 4px 5px;
+    font-size: 1rem;
 }
 
 .resume ul {
@@ -187,6 +200,23 @@ a:visited {
 .resume ul ul {
     margin-left: 45px;
     padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.resume h2 {
+    padding: 20px 0;
+    background: #e6ecf7;
+    text-align: center;
+    margin: 20px 0;
+    box-shadow: 3px 3px 5px;
+    font-weight: bolder;
+}
+
+.resume h4 {
+    font-family: 'Abel', sans-serif;
+    color: #353535;
+    font-size: 1.3rem;
+    padding-top: 20px;
 }
 
 /* **** Footer **** */
@@ -298,10 +328,13 @@ footer {
         padding-right: 25px;
     }
 
+    /* Resume Media Queries */
 
-    /* .footer {
-        max-height: 40px;
-    } */
+    .resume {
+        margin: 0 20%;
+    }
+
+    
 }
 
 @media (min-width: 992px) {
@@ -313,6 +346,14 @@ footer {
     .header {
         max-width: 100%;
  }
+
+    .resume {
+        margin: 0 20%;
+    }
+
+    .footer {
+        margin: 0 -40%;
+    }
 
  
     
