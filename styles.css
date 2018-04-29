@@ -9,7 +9,7 @@ body {
     margin: 15px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Roboto Slab', serif;
     color: #353535;
     margin: 10px 0 10px 10px;
@@ -135,11 +135,9 @@ a:visited {
     
 }
 
-
 .dog-adoption img, .garden img, .pupquest img {
     border: 1px #F3F3F3 solid;
     box-shadow: 3px 3px 5px #F1F1F1;
-    
 }
 
 .screenshot {
@@ -154,6 +152,41 @@ a:visited {
 
 .site-link {
     margin: 15px 0;
+}
+
+/* **** Resume **** */
+.contact {
+    text-align: center;
+}
+.resume p {
+    line-height: 1.2rem;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.resume a {
+    font-weight: 800;
+    color: #6999F3;
+}
+
+.bullet {
+    display: block;
+    margin-left:-0.5rem;
+}
+
+.resume li {
+    line-height: 1rem;
+    padding: 4px 5px;
+}
+
+.resume ul {
+    margin-left: 45px;
+    padding: 1rem 0;
+}
+
+.resume ul ul {
+    margin-left: 45px;
+    padding-left: 0px;
 }
 
 /* **** Footer **** */
@@ -182,6 +215,7 @@ footer {
     margin: 0 auto;
     /* Can you get above with flexbox????!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 }
+
 
 /* **** Media Queries **** */
 
