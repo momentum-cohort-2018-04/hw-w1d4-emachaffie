@@ -270,11 +270,16 @@ footer {
     } */
 }
 
-/* @media (min-width: 768px) { */
-    
-    /* .main-pic {
-        max-width: 450px;
-    } */
+@media (min-width: 992px) {
 
+    body {
+        margin: 0 20%;
+    }
+
+    .header {
+        max-width: 100%;
+ }
+
+ 
     
-/* } */
+}
