@@ -1,0 +1,373 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF;
+    margin: 15px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Slab', serif;
+    color: #353535;
+    margin: 10px 0 10px 10px;
+}
+
+
+
+p, li {
+    font-family: 'Abel', sans-serif;
+    padding: 20px 15px;
+    font-size: 1.2rem;
+    color: #575A61;
+}
+
+img {
+    max-width: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #353535;
+    font-weight: bolder;
+}
+
+a:visited {
+    color: #353535;
+}
+
+
+/* **** Navigation ***** */
+
+.header-name {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+
+.navbar {
+    display:flex;
+    flex-direction: column;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+.nav-link {
+    font-family: 'Abel', sans-serif;
+    padding: 5px 10px;
+    /* border: 0.5px #353535 solid; */
+    text-decoration: none;
+    background-color: #6999F3;
+    text-align: center;
+    margin: 4px 8px;
+    box-shadow: 3px 3px 5px #e6ecf7;
+}
+
+/* **** About **** */
+
+.about-liz {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.about-text3 {
+    width: 100%;
+}
+
+.main-pic, .about2-pic, .about3-pic {
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.about-heading {
+    background-color: #FFF;
+}
+
+/* .about-text3 {
+    margin-bottom: 80px;
+} */
+
+.language-list, .interest-list {
+    list-style: none;
+    margin: 0 0 20px 15px;
+    text-align: center;
+}
+
+.language-list li, .interest-list li {
+    /* border: 2px black solid; */
+    padding: 5px;
+    font-weight: 600;
+}
+
+.h2-about {
+    font-size: 1.8rem;
+}
+
+/* ***** Projects **** */
+
+.garden, .dog-adoption, .pupquest {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #f4f7f9;
+    margin: 30px 0;
+}
+
+.garden h2, .dog-adoption h2, .pupquest h2 {
+    align-self: center;
+    margin: 10px 10px;
+    font-size: 1.6rem;
+}
+
+.site-link {
+    align-self: center;
+    margin-bottom: 20px;
+    padding: 0;
+    font-weight: 100;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.dog-adoption img, .garden img, .pupquest img {
+    border: 1px #F3F3F3 solid;
+    box-shadow: 3px 3px 5px #F1F1F1;
+}
+
+.screenshot {
+    align-self: center;
+    display: block;
+    max-width: 90%;
+    margin-top: 15px;
+}
+.screenshot img {
+    max-width: 100%;
+}
+
+.site-link {
+    margin: 15px 0;
+}
+
+/* **** Resume **** */
+
+.resume-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1rem;
+}
+.resume p {
+    line-height: 1.2rem;
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.resume a {
+    font-weight: 800;
+    color: #6999F3;
+}
+
+.bullet {
+    display: block;
+    margin-left:-0.5rem;
+}
+
+.resume li {
+    line-height: 1rem;
+    padding: 4px 5px;
+    font-size: 1rem;
+}
+
+.resume ul {
+    margin-left: 45px;
+    padding: 1rem 0;
+}
+
+.resume ul ul {
+    margin-left: 45px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.resume h2 {
+    padding: 20px 0;
+    background: #e6ecf7;
+    text-align: center;
+    margin: 20px 0;
+    box-shadow: 3px 3px 5px;
+    font-weight: bolder;
+}
+
+.resume h4 {
+    font-family: 'Abel', sans-serif;
+    color: #353535;
+    font-size: 1.3rem;
+    padding-top: 20px;
+}
+
+.job-title {
+    color: #353535;
+}
+
+/* **** Footer **** */
+
+footer {
+    margin: 0px;
+}
+
+.footer-links {
+    background-color: #6999F3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* border: 8px black solid; */
+}
+
+.icon {
+    width: 1;
+    /* border: 8px black solid; */
+}
+
+.icon img {
+    width: 50%;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    /* Can you get above with flexbox????!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+}
+
+
+/* **** Media Queries **** */
+
+@media (min-width: 660px) {
+    
+    .header {
+        background: #b5ccf2;
+    }
+    .navbar ul {
+        margin-left: 15px;
+}
+    .navbar ul li {
+        display: inline;
+        margin: 0;
+    }
+    .navbar {
+        display:flex;
+        flex-direction: row;
+        justify-content: left;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+
+    .about-liz {
+        justify-content: space-around;
+        align-items: center;
+    }
+    .main-pic, .about2-pic, .about3-pic {
+        width: 50%;
+        margin: 0;
+    }
+    .about-heading {
+        display: inline-block;
+        width: 45%;
+    }
+    .about-text1, .about-text2, .about-text3 {
+        display: inline-block;
+        max-width: 50%;
+        text-align: center;
+        padding: 10px;
+        }
+    
+    .about-text2{
+        order: 2;
+        margin-right: 0;
+    } 
+
+    .about-text3 {
+        order: 5;
+    }
+
+    .about2-pic {
+        order: 3;
+        /* background-color: #e6ecf7; */
+    }
+
+    .about3-pic {
+        order: 4;
+    }
+
+    /* **** Projects Media Queries **** */
+    .garden, .dog-adoption, .pupquest {
+        justify-content: flex-end;
+        flex-direction: row;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .screenshot {
+        width: 50%;
+        order: 2;
+    }
+
+    .site-info {
+        order: 1;
+        width: 50%;
+    }
+
+    .site-link {
+        order: 3;
+        padding-right: 25px;
+    }
+
+    /* Resume Media Queries */
+
+    .resume {
+        margin: 0 20%;
+    }
+
+    .name {
+        margin-top: 100px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    body {
+        margin: 0 20%;
+    }
+
+    .header {
+        max-width: 100%;
+ }
+
+    .resume {
+        margin: 0 20%;
+    }
+
+    .footer {
+        /* margin: 0 -40%; */
+    }
+
+ 
+    
+}
