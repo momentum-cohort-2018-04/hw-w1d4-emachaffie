@@ -19,6 +19,7 @@ p, li {
     font-family: 'Abel', sans-serif;
     padding: 20px 15px;
     font-size: 1.2rem;
+    color: #575A61;
 }
 
 img {
@@ -78,13 +79,13 @@ a:visited {
     justify-content: flex-start;
 }
 
-.main-pic, .about2-pic, .about3-pic {
-    max-width: 100%;
-    margin: 10px 0;
+.about-text3 {
+    width: 100%;
 }
 
-.about-text2 {
-    background-color: #e6ecf7;
+.main-pic, .about2-pic, .about3-pic {
+    max-width: 100%;
+    margin: 20px 0;
 }
 
 .about-heading {
@@ -101,10 +102,6 @@ a:visited {
     text-align: center;
 }
 
-.language-list1 {
-    float: left;  
-}
-
 .language-list li, .interest-list li {
     /* border: 2px black solid; */
     padding: 5px;
@@ -117,8 +114,8 @@ a:visited {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background: #e6ecf7;
-    margin: 15px 0;
+    background: #f4f7f9;
+    margin: 30px 0;
 }
 
 .garden h2, .dog-adoption h2, .pupquest h2 {
@@ -219,6 +216,10 @@ a:visited {
     padding-top: 20px;
 }
 
+.job-title {
+    color: #353535;
+}
+
 /* **** Footer **** */
 
 footer {
@@ -252,7 +253,7 @@ footer {
 @media (min-width: 660px) {
     
     .header {
-        background: #e6ecf7;
+        background: #b5ccf2;
     }
     .navbar ul {
         margin-left: 15px;
@@ -271,10 +272,11 @@ footer {
 
     .about-liz {
         justify-content: space-around;
+        align-items: center;
     }
     .main-pic, .about2-pic, .about3-pic {
         width: 50%;
-        /* margin: 10px 0; */
+        margin: 0;
     }
     .about-heading {
         display: inline-block;
@@ -334,7 +336,10 @@ footer {
         margin: 0 20%;
     }
 
-    
+    .name {
+        margin-top: 100px;
+    }
+
 }
 
 @media (min-width: 992px) {
